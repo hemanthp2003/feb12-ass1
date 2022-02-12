@@ -1,0 +1,27 @@
+rice=1200
+Wheat=600
+Pulses=830
+Shampoo=200
+Soaps=180
+Cusname=input ('enter customer name:')
+Cusphno=input('enter customer phone number:')
+Rcq=int(input('enter no of packets:'))
+Whq=int(input('enter no of packets:'))
+Pq=int(input('enter no of packets:'))
+Shq=int(input('enter no time:'))
+Spq=int(input('enter no of packets:'))
+Bill=(rice*rcq)+(wheat*whq)+(pulses*pq)+(shampoo*shq)+(soaps*spq)
+if bill>5000
+      Dis=bill*10/100
+elif bill>3000
+      Dis=bill*8/100
+elif bill>2000
+      Dis=bill*5/100
+elif bill>1000
+     Dis=bill*3/1000
+if bill >3000
+      Tax=bill*10/100
+else:
+     Tax=bill*18/100
+    Mainbill=bill-dis+tax
+Print('bill amount:',main bill)
